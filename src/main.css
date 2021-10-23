@@ -1,0 +1,58 @@
+body{
+    background-color: brown;
+    margin: 0px;
+}
+
+#heading{
+    padding: 5px;
+    margin: 0px;
+}
+
+.header{
+    color: wheat;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, cursive;
+}
+
+.sub-heading{
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+}
+
+.note{
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    resize: none;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.add-note{
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 80px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+}
+
+.add-note:hover{
+    background: rgba(0, 0, 0, 0.2)
+}
